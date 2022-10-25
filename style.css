@@ -91,6 +91,7 @@ button {
     background-color: white;
     display: flex;
     flex-direction: column;
+    padding-bottom: 100px;
 }
 
 .info-header {
@@ -124,4 +125,29 @@ button {
 .random-image {
     width: auto;
     height: 150px;
+}
+
+.three {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: left;
+    max-width: 800px;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    max-width: 800px;
 }
