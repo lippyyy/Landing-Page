@@ -78,7 +78,7 @@ ul {
     padding-top: 10px;
 }
 
-button {
+.signup {
     background-color: #3882F6;
     border: black;
     padding: 6px 30px;
@@ -150,4 +150,44 @@ button {
     font-weight: bold;
     text-align: right;
     max-width: 800px;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.box {
+    border: #3882F6;
+    background-color: #3882F6;
+    padding: 50px 150px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+}
+
+.main-box-text {
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+}
+
+.box-subtext {
+    font-size: 20px;
+    color: white;
+    filter: contrast(0.75);
+}
+
+.signup-two {
+    color: white;
+    border-color: white;
+    background-color: #3882F6;
+    padding: 10px 50px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
 }
